@@ -1,6 +1,7 @@
 //modules to be used throughout application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // questions for users to answer, in order to populate README
 const questions = [
@@ -37,12 +38,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'test',
+        name: 'tests',
         message: "What tests should be in place?"
     },
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'github',
         message: "What is your GitHub username?"
     },
     {
@@ -52,18 +53,17 @@ const questions = [
     },
 ];
 
-const readmeTitle = questions.title;
-const description = questions.description;
-const installation = questions.installation;
-const usage = questions.usage;
-const license = questions.license;
-const contributions = questions.contributions;
-const test = questions.test;
-const github = questions.github;
-const email = questions.email
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
+    let format = generateMarkdown(data);
+    //naming the destination file
+    const fileName = ("./utils/README.md");
+    // write a file using fileName^, stringify the data, check for errors
+    fs.writeFile(fileName, format, (err) => {
+        err ? console.error(err) : console.log("success!")
+    });
 
 }
 
@@ -75,11 +75,9 @@ function init() {
         .then((data) => {
             console.log(data);
 
-            const fileName = ("README.md");
-            fs.writeFile(fileName, JSON.stringify(data, null, "\n"), (err) => {
-                err ? console.error(err) : console.log("success!")
-            });
-            writeToFile(fileName, data);
+            
+            //call back function
+            writeToFile(data);
         });
 };
 

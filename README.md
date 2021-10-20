@@ -2,20 +2,6 @@
 dynamically generate a professional README.md file from a user's input
 
 
-# 09 Node.js: Professional README Generator
-
-## Your Task
-
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
-
-
-You’ll need to submit a link to a video demonstrating the application _and_ add it to the README of your project.
-
-
-## Acceptance Criteria
-
-```md
 
 * Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
