@@ -1,34 +1,33 @@
-# adf
+# README.md generator
 
-  [![License: ISC](https://img.shields.io/badge/License-ISC-brightgreen.svg)](https://opensource.org/licenses/ISC/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT/)
   
   ## Description
-  adsf
+  Create a readme generator that takes a user's input and diplays content in a readme file.
   
   ## Table of Contents
-      *[installation](#description)
-      *[usage](#usage)
-      *[license](#license)
-      *[contributing](#contributing)
-      *[tests](#tests)
-      *[questions](#questions)
+      [installation](#installation)
+      [usage](#usage)
+      [license](#license)
+      [contributing](#contributing)
+      [tests](#tests)
+      [questions](#questions)
   
 ## Installation
-ag
+You must use node install in order for the application to run correctly.
 
 ## Usage
-ag
+The application is used for creating quality readme's.
 
 ## License
-ISC
+This application is covered by the MIT license.
 
 ## Contributing
-adfs
+Anyone can contribute.
 
 ## Tests
-adf
+N/A
 
 ## Questions
-GitHub: [afg](https://github.com/afg)
-Email: afg
-
+GitHub: [kbonaccorsi](https://github.com/kbonaccorsi)
+Email: kaileigh.bonaccorsi@gmail.com
