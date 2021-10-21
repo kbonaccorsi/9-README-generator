@@ -1,6 +1,7 @@
 # 9-README-generator
 dynamically generate a professional README.md file from a user's input
 
+video: https://watch.screencastify.com/v/fMoaZR30XhuuCjZ80P3F
 
 
 * Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
