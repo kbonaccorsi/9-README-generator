@@ -1,4 +1,4 @@
-# 9-README-generator
+# 9-README-generator readme
 dynamically generate a professional README.md file from a user's input
 
 video: https://watch.screencastify.com/v/fMoaZR30XhuuCjZ80P3F
